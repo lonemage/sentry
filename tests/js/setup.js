@@ -62,6 +62,7 @@ window.TestStubs = {
     go: jest.fn(),
     goBack: jest.fn(),
     goForward: jest.fn(),
+    listen: jest.fn(),
     setRouteLeaveHook: jest.fn(),
     isActive: jest.fn(),
     createHref: jest.fn(),
@@ -370,6 +371,20 @@ window.TestStubs = {
     ];
   },
 
+  Broadcast: params => ({
+    dateCreated: new Date(),
+    dateExpires: new Date(),
+    hasSeen: false,
+    id: '8',
+    isActive: true,
+    link:
+      'https://docs.sentry.io/hosted/clients/javascript/sourcemaps/#uploading-source-maps-to-sentry',
+    message:
+      'Source maps are JSON files that contain information on how to map your transpiled source code back to their original source.',
+    title: 'Learn about Source Maps',
+    ...params,
+  }),
+
   DebugSymbols: params => ({
     debugSymbols: [
       {
@@ -514,6 +529,13 @@ window.TestStubs = {
       ...params,
     };
   },
+
+  Incident: params => ({
+    id: '1',
+    title: 'Test Incident',
+    updates: ['First Update', 'Second Update'],
+    url: 'https://status.sentry.io',
+  }),
 
   Members: () => [
     {
@@ -954,6 +976,14 @@ window.TestStubs = {
     username: 'foo@example.com',
     email: 'foo@example.com',
     name: 'Foo Bar',
+    isAuthenticated: true,
+    options: {
+      timezone: 'UTC',
+    },
+    hasPasswordAuth: true,
+    flags: {
+      newsletter_consent_prompt: false,
+    },
     ...params,
   }),
 
@@ -972,15 +1002,5 @@ window.MockApiClient = require.requireMock('app/api').Client;
 // default configuration
 ConfigStore.loadInitialData({
   messages: [],
-  user: {
-    isAuthenticated: true,
-    email: 'foo@example.com',
-    options: {
-      timezone: 'UTC',
-    },
-    hasPasswordAuth: true,
-    flags: {
-      newsletter_consent_prompt: false,
-    },
-  },
+  user: TestStubs.User(),
 });
