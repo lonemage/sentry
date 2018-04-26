@@ -264,6 +264,7 @@ exports[`IgnoreActions with confirmation step renders 1`] = `
               }
             />
             <GuideAnchor
+              show={true}
               target="ignore_delete_discard"
               type="text"
             >
@@ -272,7 +273,7 @@ exports[`IgnoreActions with confirmation step renders 1`] = `
                 type="text"
               >
                 <div
-                  className="css-9u5for-GuideAnchorContainer css-5e93r80"
+                  className="css-9u5for-GuideAnchorContainer css-15ifxk40"
                   type="text"
                 >
                   <StyledGuideAnchor
@@ -280,11 +281,11 @@ exports[`IgnoreActions with confirmation step renders 1`] = `
                     className="guide-anchor-ping ignore_delete_discard"
                   >
                     <div
-                      className="guide-anchor-ping ignore_delete_discard css-1yndvnf-StyledGuideAnchor css-5e93r81"
+                      className="guide-anchor-ping ignore_delete_discard css-1yndvnf-StyledGuideAnchor css-15ifxk41"
                     >
                       <StyledGuideAnchorRipples>
                         <div
-                          className="css-1t9mqkr-StyledGuideAnchorRipples css-5e93r82"
+                          className="css-1t9mqkr-StyledGuideAnchorRipples css-15ifxk42"
                         />
                       </StyledGuideAnchorRipples>
                     </div>
@@ -5270,6 +5271,7 @@ exports[`IgnoreActions without confirmation renders 1`] = `
             }
           />
           <GuideAnchor
+            show={true}
             target="ignore_delete_discard"
             type="text"
           >
@@ -5278,7 +5280,7 @@ exports[`IgnoreActions without confirmation renders 1`] = `
               type="text"
             >
               <div
-                className="css-9u5for-GuideAnchorContainer css-5e93r80"
+                className="css-9u5for-GuideAnchorContainer css-15ifxk40"
                 type="text"
               >
                 <StyledGuideAnchor
@@ -5286,11 +5288,11 @@ exports[`IgnoreActions without confirmation renders 1`] = `
                   className="guide-anchor-ping ignore_delete_discard"
                 >
                   <div
-                    className="guide-anchor-ping ignore_delete_discard css-1yndvnf-StyledGuideAnchor css-5e93r81"
+                    className="guide-anchor-ping ignore_delete_discard css-1yndvnf-StyledGuideAnchor css-15ifxk41"
                   >
                     <StyledGuideAnchorRipples>
                       <div
-                        className="css-1t9mqkr-StyledGuideAnchorRipples css-5e93r82"
+                        className="css-1t9mqkr-StyledGuideAnchorRipples css-15ifxk42"
                       />
                     </StyledGuideAnchorRipples>
                   </div>

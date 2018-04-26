@@ -22,7 +22,7 @@ import EnvironmentStore from '../../../stores/environmentStore';
 import ListLink from '../../../components/listLink';
 import SettingsPageHeader from '../components/settingsPageHeader';
 import recreateRoute from '../../../utils/recreateRoute';
-import ConditionalGuideAnchor from '../../../components/assistant/guideAnchor';
+import GuideAnchor from '../../../components/assistant/guideAnchor';
 
 const TextColorLink = styled(Link)`
   color: ${p => p.theme.gray3};
@@ -129,8 +129,8 @@ const RuleRow = createReactClass({
                   <h6>
                     When <strong>{data.actionMatch}</strong> of these conditions are met:
                   </h6>
-                  <ConditionalGuideAnchor
-                    condition={this.props.firstRule}
+                  <GuideAnchor
+                    show={this.props.firstRule}
                     target="alert_conditions"
                     type="text"
                   >
@@ -145,7 +145,7 @@ const RuleRow = createReactClass({
                         })}
                       </tbody>
                     </table>
-                  </ConditionalGuideAnchor>
+                  </GuideAnchor>
                 </Condition>
               )}
             </RuleDescriptionColumn>
@@ -159,8 +159,8 @@ const RuleRow = createReactClass({
                     </strong>{' '}
                     for an issue:
                   </h6>
-                  <ConditionalGuideAnchor
-                    condition={this.props.firstRule}
+                  <GuideAnchor
+                    show={this.props.firstRule}
                     target="alert_actions"
                     type="text"
                   >
@@ -175,7 +175,7 @@ const RuleRow = createReactClass({
                         })}
                       </tbody>
                     </table>
-                  </ConditionalGuideAnchor>
+                  </GuideAnchor>
                 </Condition>
               )}
             </RuleDescriptionColumn>

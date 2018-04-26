@@ -325,13 +325,13 @@ exports[`projectAlertRules renders 1`] = `
                               to="1/"
                             >
                               <Link
-                                className="css-1763h46-TextColorLink css-xdz4dv0"
+                                className="css-1763h46-TextColorLink css-1erhv4y0"
                                 onlyActiveOnIndex={false}
                                 style={Object {}}
                                 to="1/"
                               >
                                 <a
-                                  className="css-1763h46-TextColorLink css-xdz4dv0"
+                                  className="css-1763h46-TextColorLink css-1erhv4y0"
                                   onClick={[Function]}
                                   style={Object {}}
                                 >
@@ -503,15 +503,15 @@ exports[`projectAlertRules renders 1`] = `
                   >
                     <RuleDescriptionRow>
                       <div
-                        className="css-16pvk6d-RuleDescriptionRow css-xdz4dv1"
+                        className="css-16pvk6d-RuleDescriptionRow css-1erhv4y1"
                       >
                         <RuleDescriptionColumn>
                           <div
-                            className="css-ta36pl-RuleDescriptionColumn css-xdz4dv2"
+                            className="css-ta36pl-RuleDescriptionColumn css-1erhv4y2"
                           >
                             <Condition>
                               <div
-                                className="css-1d9hhun-Condition css-xdz4dv3"
+                                className="css-1d9hhun-Condition css-1erhv4y3"
                               >
                                 <h6>
                                   When 
@@ -519,7 +519,7 @@ exports[`projectAlertRules renders 1`] = `
                                    of these conditions are met:
                                 </h6>
                                 <GuideAnchor
-                                  condition={true}
+                                  show={true}
                                   target="alert_conditions"
                                   type="text"
                                 >
@@ -528,7 +528,7 @@ exports[`projectAlertRules renders 1`] = `
                                     type="text"
                                   >
                                     <div
-                                      className="css-9u5for-GuideAnchorContainer css-5e93r80"
+                                      className="css-9u5for-GuideAnchorContainer css-15ifxk40"
                                       type="text"
                                     >
                                       <table
@@ -549,11 +549,11 @@ exports[`projectAlertRules renders 1`] = `
                                         className="guide-anchor-ping alert_conditions"
                                       >
                                         <div
-                                          className="guide-anchor-ping alert_conditions css-1yndvnf-StyledGuideAnchor css-5e93r81"
+                                          className="guide-anchor-ping alert_conditions css-1yndvnf-StyledGuideAnchor css-15ifxk41"
                                         >
                                           <StyledGuideAnchorRipples>
                                             <div
-                                              className="css-1t9mqkr-StyledGuideAnchorRipples css-5e93r82"
+                                              className="css-1t9mqkr-StyledGuideAnchorRipples css-15ifxk42"
                                             />
                                           </StyledGuideAnchorRipples>
                                         </div>
@@ -567,11 +567,11 @@ exports[`projectAlertRules renders 1`] = `
                         </RuleDescriptionColumn>
                         <RuleDescriptionColumn>
                           <div
-                            className="css-ta36pl-RuleDescriptionColumn css-xdz4dv2"
+                            className="css-ta36pl-RuleDescriptionColumn css-1erhv4y2"
                           >
                             <Condition>
                               <div
-                                className="css-1d9hhun-Condition css-xdz4dv3"
+                                className="css-1d9hhun-Condition css-1erhv4y3"
                               >
                                 <h6>
                                   Take these actions at most
@@ -590,7 +590,7 @@ exports[`projectAlertRules renders 1`] = `
                                   for an issue:
                                 </h6>
                                 <GuideAnchor
-                                  condition={true}
+                                  show={true}
                                   target="alert_actions"
                                   type="text"
                                 >
@@ -599,7 +599,7 @@ exports[`projectAlertRules renders 1`] = `
                                     type="text"
                                   >
                                     <div
-                                      className="css-9u5for-GuideAnchorContainer css-5e93r80"
+                                      className="css-9u5for-GuideAnchorContainer css-15ifxk40"
                                       type="text"
                                     >
                                       <table
@@ -620,11 +620,11 @@ exports[`projectAlertRules renders 1`] = `
                                         className="guide-anchor-ping alert_actions"
                                       >
                                         <div
-                                          className="guide-anchor-ping alert_actions css-1yndvnf-StyledGuideAnchor css-5e93r81"
+                                          className="guide-anchor-ping alert_actions css-1yndvnf-StyledGuideAnchor css-15ifxk41"
                                         >
                                           <StyledGuideAnchorRipples>
                                             <div
-                                              className="css-1t9mqkr-StyledGuideAnchorRipples css-5e93r82"
+                                              className="css-1t9mqkr-StyledGuideAnchorRipples css-15ifxk42"
                                             />
                                           </StyledGuideAnchorRipples>
                                         </div>
