@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Select from 'react-select';
-import AsyncSelect from 'react-select/lib/Async';
+import Select, {Async} from 'react-select';
 import styled from 'react-emotion';
 
 import InputField from './inputField';
@@ -38,11 +37,11 @@ export default class MultiSelectField extends InputField {
       <MultiSelect
         style={{width: 200, zIndex: 100, overflow: 'visible'}}
         value={this.state.values}
-        {...this.props}
         id={this.getId()}
-        onChange={this.handleChange}
         multi={true}
         arrowRenderer={this.renderArrow}
+        {...this.props}
+        onChange={this.handleChange}
       />
     );
   }
@@ -50,7 +49,7 @@ export default class MultiSelectField extends InputField {
 
 const MultiSelect = styled(({async, ...props}) => {
   if (async) {
-    return <AsyncSelect {...props} />;
+    return <Async {...props} />;
   }
   return <Select {...props} />;
 })`
