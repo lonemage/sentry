@@ -119,3 +119,5 @@ register('tagstore.multi-sampling', default=0.0)
 
 # GitHubApps
 register('github.webhook-secret', default='')
+register('github.private-key', default='')
+register('github.app-id', default=0)

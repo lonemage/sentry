@@ -39,6 +39,7 @@ export default class OrganizationIntegrations extends AsyncComponent {
   renderBody() {
     let {orgId, projectId} = this.props;
     let orgFeatures = new Set(this.state.organization.features);
+    console.log(this.state.config.providers);
     const integrations = this.state.config.providers
       .filter(
         provider => orgFeatures.has('internal-catchall') || provider.key !== 'github'
