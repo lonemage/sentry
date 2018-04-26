@@ -123,7 +123,7 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
                     disabled={true}
                     title="Foo Bar (foo@example.com)"
                   >
-                    <span
+                    <StyledBaseAvatar
                       className="avatar css-5o5its-StyledAvatar css-htqgjv0"
                       style={
                         Object {
@@ -132,12 +132,22 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
                         }
                       }
                     >
-                      <img
-                        onError={[Function]}
-                        onLoad={[Function]}
-                        src="undefined/avatar/b48def645758b95537d4424c84d1a9ff?d=blank&s=32"
-                      />
-                    </span>
+                      <span
+                        className="avatar css-htqgjv0 css-25r3og-StyledBaseAvatar css-1oevwoz0"
+                        style={
+                          Object {
+                            "height": "28px",
+                            "width": "28px",
+                          }
+                        }
+                      >
+                        <img
+                          onError={[Function]}
+                          onLoad={[Function]}
+                          src="undefined/avatar/b48def645758b95537d4424c84d1a9ff?d=blank&s=32"
+                        />
+                      </span>
+                    </StyledBaseAvatar>
                   </Tooltip>
                 </BaseAvatar>
               </UserAvatar>
@@ -211,7 +221,7 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
                     disabled={true}
                     title="Foo Bar (foo@example.com)"
                   >
-                    <span
+                    <StyledBaseAvatar
                       className="avatar css-5o5its-StyledAvatar css-htqgjv0"
                       style={
                         Object {
@@ -220,12 +230,22 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
                         }
                       }
                     >
-                      <img
-                        onError={[Function]}
-                        onLoad={[Function]}
-                        src="undefined/avatar/b48def645758b95537d4424c84d1a9ff?d=blank&s=32"
-                      />
-                    </span>
+                      <span
+                        className="avatar css-htqgjv0 css-25r3og-StyledBaseAvatar css-1oevwoz0"
+                        style={
+                          Object {
+                            "height": "28px",
+                            "width": "28px",
+                          }
+                        }
+                      >
+                        <img
+                          onError={[Function]}
+                          onLoad={[Function]}
+                          src="undefined/avatar/b48def645758b95537d4424c84d1a9ff?d=blank&s=32"
+                        />
+                      </span>
+                    </StyledBaseAvatar>
                   </Tooltip>
                 </BaseAvatar>
               </UserAvatar>
@@ -299,7 +319,7 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
                     disabled={true}
                     title="Foo Bar (foo@example.com)"
                   >
-                    <span
+                    <StyledBaseAvatar
                       className="avatar css-5o5its-StyledAvatar css-htqgjv0"
                       style={
                         Object {
@@ -308,12 +328,22 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
                         }
                       }
                     >
-                      <img
-                        onError={[Function]}
-                        onLoad={[Function]}
-                        src="undefined/avatar/b48def645758b95537d4424c84d1a9ff?d=blank&s=32"
-                      />
-                    </span>
+                      <span
+                        className="avatar css-htqgjv0 css-25r3og-StyledBaseAvatar css-1oevwoz0"
+                        style={
+                          Object {
+                            "height": "28px",
+                            "width": "28px",
+                          }
+                        }
+                      >
+                        <img
+                          onError={[Function]}
+                          onLoad={[Function]}
+                          src="undefined/avatar/b48def645758b95537d4424c84d1a9ff?d=blank&s=32"
+                        />
+                      </span>
+                    </StyledBaseAvatar>
                   </Tooltip>
                 </BaseAvatar>
               </UserAvatar>
@@ -387,7 +417,7 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
                     disabled={true}
                     title="Foo Bar (foo@example.com)"
                   >
-                    <span
+                    <StyledBaseAvatar
                       className="avatar css-5o5its-StyledAvatar css-htqgjv0"
                       style={
                         Object {
@@ -396,12 +426,22 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
                         }
                       }
                     >
-                      <img
-                        onError={[Function]}
-                        onLoad={[Function]}
-                        src="undefined/avatar/b48def645758b95537d4424c84d1a9ff?d=blank&s=32"
-                      />
-                    </span>
+                      <span
+                        className="avatar css-htqgjv0 css-25r3og-StyledBaseAvatar css-1oevwoz0"
+                        style={
+                          Object {
+                            "height": "28px",
+                            "width": "28px",
+                          }
+                        }
+                      >
+                        <img
+                          onError={[Function]}
+                          onLoad={[Function]}
+                          src="undefined/avatar/b48def645758b95537d4424c84d1a9ff?d=blank&s=32"
+                        />
+                      </span>
+                    </StyledBaseAvatar>
                   </Tooltip>
                 </BaseAvatar>
               </UserAvatar>
@@ -475,7 +515,7 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
                     disabled={true}
                     title="Foo Bar (foo@example.com)"
                   >
-                    <span
+                    <StyledBaseAvatar
                       className="avatar css-5o5its-StyledAvatar css-htqgjv0"
                       style={
                         Object {
@@ -484,12 +524,22 @@ exports[`AvatarList renders with collapsed avatar count if > 5 users 1`] = `
                         }
                       }
                     >
-                      <img
-                        onError={[Function]}
-                        onLoad={[Function]}
-                        src="undefined/avatar/b48def645758b95537d4424c84d1a9ff?d=blank&s=32"
-                      />
-                    </span>
+                      <span
+                        className="avatar css-htqgjv0 css-25r3og-StyledBaseAvatar css-1oevwoz0"
+                        style={
+                          Object {
+                            "height": "28px",
+                            "width": "28px",
+                          }
+                        }
+                      >
+                        <img
+                          onError={[Function]}
+                          onLoad={[Function]}
+                          src="undefined/avatar/b48def645758b95537d4424c84d1a9ff?d=blank&s=32"
+                        />
+                      </span>
+                    </StyledBaseAvatar>
                   </Tooltip>
                 </BaseAvatar>
               </UserAvatar>
@@ -611,7 +661,7 @@ exports[`AvatarList renders with user avatars 1`] = `
                     disabled={true}
                     title="Foo Bar (foo@example.com)"
                   >
-                    <span
+                    <StyledBaseAvatar
                       className="avatar css-5o5its-StyledAvatar css-htqgjv0"
                       style={
                         Object {
@@ -620,12 +670,22 @@ exports[`AvatarList renders with user avatars 1`] = `
                         }
                       }
                     >
-                      <img
-                        onError={[Function]}
-                        onLoad={[Function]}
-                        src="undefined/avatar/b48def645758b95537d4424c84d1a9ff?d=blank&s=32"
-                      />
-                    </span>
+                      <span
+                        className="avatar css-htqgjv0 css-25r3og-StyledBaseAvatar css-1oevwoz0"
+                        style={
+                          Object {
+                            "height": "28px",
+                            "width": "28px",
+                          }
+                        }
+                      >
+                        <img
+                          onError={[Function]}
+                          onLoad={[Function]}
+                          src="undefined/avatar/b48def645758b95537d4424c84d1a9ff?d=blank&s=32"
+                        />
+                      </span>
+                    </StyledBaseAvatar>
                   </Tooltip>
                 </BaseAvatar>
               </UserAvatar>
@@ -699,7 +759,7 @@ exports[`AvatarList renders with user avatars 1`] = `
                     disabled={true}
                     title="Foo Bar (foo@example.com)"
                   >
-                    <span
+                    <StyledBaseAvatar
                       className="avatar css-5o5its-StyledAvatar css-htqgjv0"
                       style={
                         Object {
@@ -708,12 +768,22 @@ exports[`AvatarList renders with user avatars 1`] = `
                         }
                       }
                     >
-                      <img
-                        onError={[Function]}
-                        onLoad={[Function]}
-                        src="undefined/avatar/b48def645758b95537d4424c84d1a9ff?d=blank&s=32"
-                      />
-                    </span>
+                      <span
+                        className="avatar css-htqgjv0 css-25r3og-StyledBaseAvatar css-1oevwoz0"
+                        style={
+                          Object {
+                            "height": "28px",
+                            "width": "28px",
+                          }
+                        }
+                      >
+                        <img
+                          onError={[Function]}
+                          onLoad={[Function]}
+                          src="undefined/avatar/b48def645758b95537d4424c84d1a9ff?d=blank&s=32"
+                        />
+                      </span>
+                    </StyledBaseAvatar>
                   </Tooltip>
                 </BaseAvatar>
               </UserAvatar>
