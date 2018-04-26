@@ -74,3 +74,10 @@ class DashboardTest(AcceptanceTestCase):
             self.browser.get(self.path)
             self.browser.wait_until_not('.loading-indicator')
             self.browser.snapshot('new dashboard')
+
+    def test_new_dashboard_empty(self):
+        with self.feature('organizations:dashboard'):
+            self.project = None
+            self.browser.get(self.path)
+            self.browser.wait_until_not('.loading-indicator')
+            self.browser.snapshot('new dashboard empty')
